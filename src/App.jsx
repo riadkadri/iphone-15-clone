@@ -1,10 +1,10 @@
 
-import './App.css'
-
-function App() {
+const App=() =>{
   return (
     <>
-      <p>Hello World</p>
+     <h1 class="text-3xl font-bold underline">
+           Hello world!
+      </h1>
     </>
   )
 }
