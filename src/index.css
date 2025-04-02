@@ -9,7 +9,6 @@
   --color-blue:#2997FF;
 
   --color-zinc:#101010;
-
 }
 
 body {
@@ -33,3 +32,15 @@ canvas {
   max-width: 1120px;
 }
 
+.link{
+  @apply text-blue text-[15px] hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20;
+}
+.video-carousel_container {
+  @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]
+}
+.flex-center {
+  @apply flex items-center justify-center
+}
+.control-btn {
+  @apply ml-4 p-4 rounded-full bg-gray-300 backdrop-blur flex items-center justify-center
+}
